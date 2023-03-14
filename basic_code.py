@@ -1,14 +1,7 @@
-def power(x: [int | float], y: [int | float]):
-    """Returns x to the y power. 
+def get_domains(domain_string):
+    s = str(domain_string)
+    L = s.split(".")
+    print(L)
+    return(L)
 
-    Args:
-        x (num): number-like object
-        y (num): number-like object
-    """
-
-    v = x ** y
-
-    return(v)
-
-def get_domains(s: str):
-    pass
+get_domains("geo-data-support.sites.uu.nl")
