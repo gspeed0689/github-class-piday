@@ -6,9 +6,7 @@ def power(x: [int | float], y: [int | float]):
         y (num): number-like object
     """
 
-    v = x
-    for x in range(1, y):
-        v = v * x
+    v = x ** y
 
     return(v)
 
