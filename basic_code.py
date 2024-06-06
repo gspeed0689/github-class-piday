@@ -11,7 +11,7 @@ def getDomains(domain_string):
     return(L)
 
 def power(x, y):
-    """Go go power rangers, mighty morphin power rangers
+    """This function will return x to the power y. 
 
     Args:
         x (num): base number
@@ -20,6 +20,7 @@ def power(x, y):
     rv = x
     for i in range(y):
         rv = rv * x
+    rv = x ** y
     return(rv)
 
 getDomains("https://geo-data-support.sites.uu.nl")
