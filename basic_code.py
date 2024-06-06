@@ -11,6 +11,12 @@ def getDomains(domain_string):
     return(L)
 
 def power(x, y):
+    """Go go power rangers, mighty morphin power rangers
+
+    Args:
+        x (num): base number
+        y (num): power value
+    """
     rv = x
     for i in range(y):
         rv = rv * x
