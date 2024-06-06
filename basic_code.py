@@ -11,9 +11,7 @@ def getDomains(domain_string):
     return(L)
 
 def power(x, y):
-    rv = x
-    for i in range(y):
-        rv = rv * x
+    rv = x ** y
     return(rv)
 
 getDomains("https://geo-data-support.sites.uu.nl")
