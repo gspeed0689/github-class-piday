@@ -11,6 +11,10 @@ This is my comment in my local code editor.
 This is my GitHub VSCode comment
 **time 15:27**
 
+*** 
+
+New code comment 2024-06-06 @ 14.21 CEDT
+
 ## What is this repository?
 
 This repository is used in my Getting Started with Git and GitHub (GSGG) workshop at the Utrecht University faculty of Geosciences. The workshop introduces Git through GitHub.com and GitHub Desktop, demonstrating how to get started versioning and sharing code. 
